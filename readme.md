@@ -38,21 +38,21 @@ git clone https://github.com/Prashanttmahamuni/Student-reg-flask-app.git
 - Server-side (Flask)
 
 ### 2. 💾 Data Handling
-<span style="color: green;">●</span> Form submission handled via Flask routes
+- Form submission handled via Flask routes
 
-<span style="color: green;">●</span> Data stored persistently in MySQL
+- Data stored persistently in MySQL
 
-<span style="color: green;">●</span> Success/failure messages displayed on UI
+- Success/failure messages displayed on UI
 
 ### 3. 📊 Data Retrieval
-<span style="color: green;">●</span> Route to view all registered students
+- Route to view all registered students
 
-<span style="color: green;">●</span> Data displayed in tabular format using HTML
+- Data displayed in tabular format using HTML
 
 ### 4. ✨ Optional Enhancements
-<span style="color: green;">●</span> Edit/Delete student records
+- Edit/Delete student records
 
-<span style="color: green;">●</span> Styling with Bootstrap or custom CSS
+- Styling with Bootstrap or custom CSS
 
 ## ⚙️ Setup Instructions
 ### 1. Clone the Repository
@@ -87,5 +87,32 @@ Visit http://localhost:5000 in your browser.
 ```
 ## 🖼️ Screenshots
 ### 🧾 Registration Form
+![Student-Registration](https://github.com/user-attachments/assets/c6232e3c-8b26-4aef-b632-8e158f9423f1)
+
+### Registered Students
+![Registered-students](https://github.com/user-attachments/assets/3c790234-1e5e-4f01-ae31-1fdc849e33a0)
 
 ### 📋 Student List
+![records-saved-in-DB](https://github.com/user-attachments/assets/22b1f3d6-9ba4-402c-b1a8-d85b49728d19)
+
+## 🧠 Component Breakdown
+| **Component**       | **Description**                                   |
+|----------------------|---------------------------------------------------|
+| `app.py`             | Main Flask application with routes                |
+| `templates/`         | HTML templates for form and student list          |
+| `static/`            | CSS and JS files                                  |
+| `db.py`              | MySQL connection and query logic                  |
+| `config.py`          | Configuration settings                            |
+| `requirements.txt`   | Python dependencies                               |
+
+## 🚀 Deployment (Optional)
+- You can deploy this app using Jenkins and EC2:
+
+- Install Jenkins on EC2
+
+- Configure GitHub webhook for CI/CD
+
+- Create Jenkins pipeline to pull code and restart Flask app
+
+## 📬 Contact & Contribution
+- Feel free to fork the repo and submit pull requests. For issues or suggestions, open a GitHub issue.
