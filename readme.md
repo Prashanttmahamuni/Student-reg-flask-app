@@ -4,7 +4,7 @@
   
 This project aims to develop and deploy a Flask-based web application that allows users to register students via a web form. The application stores submitted data in a MySQL database and provides functionality to retrieve and display student records. It serves as a hands-on learning experience in web development, backend integration, and deployment automation using Jenkins.
   
------  
+-----    
     
 ## 🧰 Technology Stack
 
@@ -117,6 +117,7 @@ Visit http://localhost:5000 in your browser.
 
 ## 📬 Contact & Contribution
 - Feel free to fork the repo and submit pull requests. For issues or suggestions, open a GitHub issue.
+
 
 
 
