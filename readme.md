@@ -6,7 +6,7 @@ This project aims to develop and deploy a Flask-based web application that allow
   
 -----    
     
-## 🧰 Technology Stack
+## 🧰 Technology Stack  
 
 
 - **Frontend**: HTML, CSS (Bootstrap optional)
@@ -117,6 +117,7 @@ Visit http://localhost:5000 in your browser.
 
 ## 📬 Contact & Contribution
 - Feel free to fork the repo and submit pull requests. For issues or suggestions, open a GitHub issue.
+
 
 
 
